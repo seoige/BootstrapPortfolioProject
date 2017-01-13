@@ -6,6 +6,7 @@ $(function() {
      success: function(response) {
        // handle response
        addCompletedCourses(response.courses.completed);
+       console.dir(response);
      }
    });
 
