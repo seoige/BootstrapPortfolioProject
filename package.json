@@ -14,8 +14,10 @@
     "babel-register": "^6.18.0",
     "browser-sync": "^2.14.0",
     "chai": "^3.5.0",
+    "javascript-sandbox": "git+https://github.com/codeschool/javascript-sandbox.git",
     "jsdom": "^9.4.1",
-    "mocha": "^3.0.1"
+    "mocha": "^3.0.1",
+    "sinon": "^1.17.5"
   },
   "engines": {
     "node": ">=4.6",
