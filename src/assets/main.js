@@ -6,7 +6,7 @@ $(function() {
      success: function(response) {
        // handle response
        addCompletedCourses(response.courses.completed);
-       console.dir(response);
+       addBadges(response.badges);
      }
    });
 
@@ -35,6 +35,22 @@ $(function() {
        }).appendTo($course);
 
      });
+   }
+
+   function addBadges(badges){
+     var $badgesDiv = $('#badges2'),
+
+     console.dir(firstBadge);
+     // TODO add foreach loop
+
+     var $achievement = $('<div />', {
+       'class': 'course'
+     }).appendTo($badgesDiv);
+
+     $('<img />', {
+       src: item.badge
+     }).appendTo($achievement);
+
    }
 
 });
