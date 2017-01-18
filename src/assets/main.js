@@ -38,7 +38,7 @@ $(function() {
    }
 
    function addBadges(badges){
-     var $badgesDiv = $('#badges2'),
+     var $badgesDiv = $('#badges2');
 
      //console.dir(firstBadge);
      // TODO add 21foreach loop
