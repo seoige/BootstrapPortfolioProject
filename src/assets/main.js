@@ -42,14 +42,17 @@ $(function() {
 
      //console.dir(firstBadge);
      // TODO add 21foreach loop
+     badges.forEach(function(item){
+       
+       var $achievement = $('<div />', {
+         'class': 'course'
+       }).appendTo($badgesDiv);
 
-     var $achievement = $('<div />', {
-       'class': 'course'
-     }).appendTo($badgesDiv);
+       $('<img />', {
+         src: item.badge
+       }).appendTo($achievement);
 
-     $('<img />', {
-       src: item.badge
-     }).appendTo($achievement);
+     });
 
    }
 
