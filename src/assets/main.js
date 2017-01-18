@@ -40,8 +40,8 @@ $(function() {
    function addBadges(badges){
      var $badgesDiv = $('#badges2'),
 
-     console.dir(firstBadge);
-     // TODO add foreach loop
+     //console.dir(firstBadge);
+     // TODO add 21foreach loop
 
      var $achievement = $('<div />', {
        'class': 'course'
