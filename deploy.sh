@@ -22,19 +22,19 @@ git st
 echo ""
 echo "................"
 echo ""
-echo -n "Do you want to publish to git pages? (yes/no) >"
-read publish
-if [ $publish == "yes" ]; then
+#echo -n "Do you want to publish to git pages? (yes/no) >"
+#read publish
+#if [ $publish == "yes" ]; then
 	echo "deploying to git pages:"
 	git subtree push --prefix src origin gh-pages
 	echo ""
 	echo "................"
 	echo ""
-else
-	echo "Not publishing to git pages"
-	echo ""
-	echo "..............."
-	echo ""
-fi
+#else
+#	echo "Not publishing to git pages"
+#	echo ""
+#	echo "..............."
+#	echo ""
+#fi
 echo "done!"
 exit 0

@@ -49,8 +49,8 @@ $(function() {
        }).appendTo($badgesDiv);
 
        $('<h3 />', {
-         text: item.name,
-         'class': 'achieve-h3'
+         'class': 'achieveh3',
+         text: item.name
        }).appendTo($achievement);
 
        $('<img />', {
