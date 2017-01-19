@@ -1,8 +1,8 @@
 #!/bin/bash
 echo "Welcome to Autodeploy - This will add, commit and push your latest changes"
-echo -n "Enter a commit message > "
-read msg
-echo "You entered: $msg"
+#echo -n "Enter a commit message > "
+#read msg
+#echo "You entered: $msg"
 git st
 echo ""
 echo "..............."
@@ -12,7 +12,7 @@ git st
 echo ""
 echo "................"
 echo ""
-git commit -m "$msg"
+git commit -m "this is an auto commit"
 git st
 echo ""
 echo "................"
@@ -22,7 +22,7 @@ git st
 echo ""
 echo "................"
 echo ""
-echo -n "Do you want to publish to git pages? (yes/no)"
+echo -n "Do you want to publish to git pages? (yes/no) >"
 read publish
 if [ $publish == "yes" ]; then
 	echo "deploying to git pages:"
