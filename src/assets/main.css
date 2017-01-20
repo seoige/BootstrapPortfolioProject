@@ -100,7 +100,7 @@ footer {
   text-align: center;
 }
 
-.achieveh3 h3 {
+.achieveh3 {
   color: #fff;
   background-color: #337ab7;
   border-color: #2e6da4;
@@ -124,6 +124,12 @@ footer {
   font-size: 1.9rem;
   font-weight: 200;
   min-height: 80px;;
+  &.achieveh3 {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    border-radius: 4px;
+  }
 }
 
 .course img {
