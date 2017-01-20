@@ -48,14 +48,14 @@ $(function() {
          'class': 'course'
        }).appendTo($badgesDiv);
 
-       $('<img />', {
+       var $achieveImg = $('<img />', {
          src: item.badge
        }).appendTo($achievement);
 
        $('<h3 />', {
          'id': 'achieveh3',
          text: item.name
-       }).appendTo($achievement);
+       }).appendTo($achieveImg);
 
      });
 
