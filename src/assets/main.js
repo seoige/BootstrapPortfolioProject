@@ -53,7 +53,7 @@ $(function() {
          text: item.name
        }).appendTo($achievement);
 
-       var $achieveImg = $('<img />', {
+      $('<img />', {
          src: item.badge
        }).appendTo($achievement);
 
